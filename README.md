@@ -1,6 +1,13 @@
 # Hackintosh
 Mojave 10.14.6
 
+### Installation
+1. Download Mojave through App Store and create USB key with Unibeast (https://www.unibeast.com/).     
+2. Boot on USB key and install Mojave.    
+3. Boot on Mojave through the USB key and do the post-installation with Multibeast (screenshot of my multibeast config below).
+
+![multibeast configuration](/Multibeast.png)
+
 Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :     
 - AppleALC.kext (version 1.3.9)    
 - AtherosE2200Ethernet.kext (version 2.2.2)    
