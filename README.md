@@ -25,3 +25,7 @@ Here's my hardware config :
 - Ram : 8Go Ram (DDR3 Ballistix Tactical, 2 x 4 Go, 1600 MHz, CAS 8)    
 - GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go    
 - Clover : Clover v2.5k_r5033    
+
+### Problem with ethernet ?
+- It is a known problem if bios is not up to date so **update your bios**.    
+- It it still does not work, try _sudo softwareupdate --background_ in a terminal.    
