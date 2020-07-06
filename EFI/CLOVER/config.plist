@@ -17,7 +17,7 @@
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
 				<true/>
 			</dict>
@@ -29,13 +29,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
+					<data>RUhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -43,27 +39,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
+					<data>RUhDMg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -71,13 +49,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
+					<data>WEhDSQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -85,13 +59,29 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					WEhDMQ==
-					</data>
+					<data>WEhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>U0FUMA==</data>
+					<key>Replace</key>
+					<data>U0FUQQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>SERBUw==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
 				</dict>
 			</array>
 		</dict>
@@ -137,14 +127,14 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>NoDefaultProperties</key>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				BAASBA==
-				</data>
+				<data>BAASBA==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -179,13 +169,53 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Port limit increase (Ricky)</string>
+				<string>USB Port Limit Patch 1 PMHeart/DalianSky</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPD4OPBAAA
-				</data>
+				<data>g/sPDw==</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 2 PMHeart/DalianSky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g+MP0w==</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g+M/0w==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 3 PMHeart/DalianSky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port Limit Patch 4 PMHeart/DalianSky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/8PDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -193,27 +223,7 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/sPkJCQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>External Icons Patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>g/8/Dw==</data>
 			</dict>
 		</array>
 	</dict>
@@ -222,7 +232,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x3e7</string>
 		<key>MLB</key>
 		<string>D25532403QXF8YLCB</string>
 		<key>ROM</key>
@@ -230,14 +240,22 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>D25532403QXF8YLCB</string>
+		<string>D25502500CDF8YLA8</string>
+		<key>Manufacturer</key>
+		<string>Inc.</string>
+		<key>Mobile</key>
+		<false/>
 		<key>ProductName</key>
 		<string>iMac14,2</string>
 		<key>SerialNumber</key>
-		<string>D25Q606HF8JC</string>
+		<string>D25P36Y2F8JC</string>
 		<key>SmUUID</key>
-		<string>9B71CD3D-A6C9-498A-810B-791DEF73CB3E</string>
+		<string>E68A96F9-2039-4EC1-93CE-D968516D51E7</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
