@@ -29,6 +29,7 @@ Here's my hardware config :
 ### Clover Configurator
 Multibeast is not much reliable, a better way to install kexts is to use Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
 A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.   
+Mojave 10.14.6 specific config plist: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.   
 Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
 
 ### Problem with audio
