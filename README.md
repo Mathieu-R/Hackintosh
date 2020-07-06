@@ -26,7 +26,9 @@ Here's my hardware config :
 - CPU : Intel Core I5 4690 (Haswell)   
 - MotherBoard : MSI H97 Gaming 3    
 - Ram : 8Go Ram (DDR3 Ballistix Tactical, 2 x 4 Go, 1600 MHz, CAS 8)    
-- GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go    
+- GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go     
+- Audio : Realtek ALC1150  
+- Network : Killer E2205.   
 - Clover : Clover v2.5k_r5033    
 
 ### Problem with audio
