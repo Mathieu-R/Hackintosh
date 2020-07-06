@@ -32,7 +32,7 @@ Here's my hardware config :
 - Clover : Clover v2.5k_r5033    
 
 ### Problem with audio
-Check here: https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/.    
+Check here: https://hackintosher.com/guides/get-hackintosh-audio-working.              
 
 ### Problem with ethernet ?
 - It is a known problem if bios is not up to date so **update your bios**.    
