@@ -5,22 +5,22 @@ Mojave 10.14.6
 Clover: https://github.com/CloverHackyColor/CloverBootloader/releases.   
 Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
 
-A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.
-Another guide: https://hackintosher.com/guides/guide-to-fresh-installing-macos-mojave-on-a-hackintosh-10-14
-Mojave 10.14.6 config plist update: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.   
+A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.    
+Another guide: https://hackintosher.com/guides/guide-to-fresh-installing-macos-mojave-on-a-hackintosh-10-14    
+Mojave 10.14.6 config plist update: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.        
 
-Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.
+Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
 
 Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :     
-- AppleALC.kext (version 1.3.9)    
-- AtherosE2200Ethernet.kext (version 2.2.2)    
+- AppleALC.kext (version 1.5.0)    
+- AtherosE2200Ethernet.kext (version 2.3.2)    
 - FakePCIID.kext    
 - FakePCIID_XHCIMux.kext     
-- FakeSMC.kext      
+- VirtualSMC.kext (1.1.4)    
 - GenericUSBXHCI.kext      
 - USBInjectAll.kext (version 9/11/18)    
-- Lilu.kext (version 1.3.0)
-- WhateverGreen.kext (version 1.3.7)     
+- Lilu.kext (version 1.4.5)
+- WhateverGreen.kext (version 1.4.0)     
 
 Here's my hardware config :   
 - CPU : Intel Core I5 4690 (Haswell)   
