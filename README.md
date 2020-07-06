@@ -15,7 +15,7 @@ Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :
 - FakePCIID_XHCIMux.kext     
 - FakeSMC.kext      
 - GenericUSBXHCI.kext      
-- USBInjectAll.kext     
+- USBInjectAll.kext (version 9/11/18)    
 - Lilu.kext (version 1.3.0)
 - WhateverGreen.kext (version 1.3.7)     
 
