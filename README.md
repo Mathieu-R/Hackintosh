@@ -37,3 +37,19 @@ Check here: https://hackintosher.com/guides/get-hackintosh-audio-working.
 ### Problem with ethernet ?
 - It is a known problem if bios is not up to date so **update your bios**.    
 - It it still does not work, try _sudo softwareupdate --background_ in a terminal.    
+
+### Mount EFI in safe mode
+```
+sudo mkdir /kexts                
+sudo cp -RX /System/Library/Extensions/msdosfs.kext /kexts
+sudo /usr/libexec/PlistBuddy -c "Add :OSBundleRequired string" /kexts/msdosfs.kext/Contents/Info.plist
+sudo /usr/libexec/PlistBuddy -c "Set :OSBundleRequired \"Safe Boot\"" /kexts/msdosfs.kext/Contents/Info.plist
+```
+
+```
+sudo kextutil /kexts/msdosfs.kext
+```
+
+```
+sudo diskutil mount <disk>
+```
