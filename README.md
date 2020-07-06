@@ -1,12 +1,15 @@
 # Hackintosh
 Mojave 10.14.6
 
-### Installation
-1. Download Mojave through App Store and create USB key with Unibeast (https://www.unibeast.com/).     
-2. Boot on USB key and install Mojave.    
-3. Boot on Mojave through the USB key and do the post-installation with Multibeast (screenshot of my multibeast config below).
+### Installation with Clover
+Clover: https://github.com/CloverHackyColor/CloverBootloader/releases.   
+Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
 
-![multibeast configuration](/Multibeast.png)
+A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.
+Another guide: https://hackintosher.com/guides/guide-to-fresh-installing-macos-mojave-on-a-hackintosh-10-14
+Mojave 10.14.6 config plist update: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.   
+
+Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.
 
 Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :     
 - AppleALC.kext (version 1.3.9)    
@@ -25,12 +28,6 @@ Here's my hardware config :
 - Ram : 8Go Ram (DDR3 Ballistix Tactical, 2 x 4 Go, 1600 MHz, CAS 8)    
 - GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go    
 - Clover : Clover v2.5k_r5033    
-
-### Clover Configurator
-Multibeast is not much reliable, a better way to install kexts is to use Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
-A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.   
-Mojave 10.14.6 specific config plist: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.   
-Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
 
 ### Problem with audio
 Check here: https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/.    
