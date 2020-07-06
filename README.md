@@ -26,6 +26,14 @@ Here's my hardware config :
 - GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go    
 - Clover : Clover v2.5k_r5033    
 
+### Clover Configurator
+Multibeast is not much reliable, a better way to install kexts is to use Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
+A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.   
+Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
+
+### Problem with audio
+Check here: https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/.    
+
 ### Problem with ethernet ?
 - It is a known problem if bios is not up to date so **update your bios**.    
 - It it still does not work, try _sudo softwareupdate --background_ in a terminal.    
