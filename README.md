@@ -1,6 +1,12 @@
 # Hackintosh
 Mojave 10.14.6
 
+### Bios configuration
+- Load optimized default    
+- Enable XMP    
+- Set Overclocking/CPU Features/CFG-Lock to disabled    
+- Set Overclocking/CPU Features/VT-d to disabled    
+
 ### Installation with Clover
 Clover: https://github.com/CloverHackyColor/CloverBootloader/releases.   
 Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
@@ -61,4 +67,11 @@ sudo kextutil /kexts/msdosfs.kext
 
 ```
 sudo diskutil mount <disk>
+```
+
+### Prevent computer to power up at night (automatically)
+
+### Rebuild kexts cache
+```
+sudo kextcache -i /
 ```
