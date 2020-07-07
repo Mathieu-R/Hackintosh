@@ -11,6 +11,15 @@ Mojave 10.14.6 config plist update: https://hackintosher.com/guides/hackintosh-m
 
 Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
 
+In the clover install assistant, only select: 
+- _Install Clover for UEFI booting only_.   
+- _Install Clover to the ESP_.   
+- Under _UEFI Drivers_:
+  - AptioMemoryFix.   
+  - HFSPlus (or VboxHFS).    
+  - ApfsDriverLoader.   
+  - EmuVariableUEFI.   
+
 Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :     
 - AppleALC.kext (version 1.5.0)    
 - AtherosE2200Ethernet.kext (version 2.3.2)    
