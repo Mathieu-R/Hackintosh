@@ -21,7 +21,7 @@ In the clover install assistant, only select:
 - _Install Clover for UEFI booting only_.   
 - _Install Clover to the ESP_.   
 - Under _UEFI Drivers_:
-  - AptioMemoryFix.   
+  - OsxAptioFix3Drv.   
   - HFSPlus (or VboxHFS).    
   - ApfsDriverLoader.   
   - EmuVariableUEFI.   
