@@ -2,10 +2,13 @@
 Mojave 10.14.6
 
 ### Bios configuration
-- Load optimized default    
-- Enable XMP    
+- Settings/Save & Exit/Restore defaults   
 - Set Overclocking/CPU Features/CFG-Lock to disabled    
-- Set Overclocking/CPU Features/VT-d to disabled    
+- Set Overclocking/CPU Features/VT-d to disabled   
+- Set Settings/Advanced/Windows 8/8.1/10 to disabled    
+- Set Settings/Boot/Boot-Mode to UEFI    
+
+https://www.reddit.com/r/hackintosh/comments/ed0di8/msi_h97_gaming_3_i54690_gtx_650_ti_gk106_mojave/    
 
 ### Installation with Clover
 Clover: https://github.com/CloverHackyColor/CloverBootloader/releases.   
