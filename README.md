@@ -4,45 +4,46 @@ Mojave 10.14.6
 ### Bios configuration
 - Settings/Save & Exit/Restore defaults   
 - Set Overclocking/CPU Features/CFG-Lock to disabled    
-- Set Overclocking/CPU Features/VT-d to disabled   
+- Set Overclocking/CPU Features/VT-d to disabled (_however, can let it enable as we set DisableIoMapper to True in config.plist)    
 - Set Settings/Advanced/Windows 8/8.1/10 to disabled    
 - Set Settings/Boot/Boot-Mode to UEFI    
 
-https://www.reddit.com/r/hackintosh/comments/ed0di8/msi_h97_gaming_3_i54690_gtx_650_ti_gk106_mojave/    
+More informations here: https://www.reddit.com/r/hackintosh/comments/ed0di8/msi_h97_gaming_3_i54690_gtx_650_ti_gk106_mojave/     
 
-### Installation with Clover
-Clover: https://github.com/CloverHackyColor/CloverBootloader/releases.   
-Clover Configurator: https://www.macupdate.com/app/mac/61090/clover-configurator.   
+### Installation with OpenCore
+Guide: https://dortania.github.io/OpenCore-Install-Guide/            
 
-A guide can be found here: https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/.    
-Another guide: https://hackintosher.com/guides/guide-to-fresh-installing-macos-mojave-on-a-hackintosh-10-14    
-Mojave 10.14.6 config plist update: https://hackintosher.com/guides/hackintosh-mojave-10-14-6-update-guide/.        
+Drivers Needed:     
+- HFSPlus (or VboxHFS) [you can use the one provided by Clover].        
 
-Latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23.    
+https://github.com/dortania/OpenCore-Install-Guide/blob/master/clover-conversion/clover-efi.md    
 
-In the clover install assistant, only select: 
-- _Install Clover for UEFI booting only_.   
-- _Install Clover to the ESP_.   
-- Under _UEFI Drivers_:
-  - OsxAptioFix3Drv.   
-  - HFSPlus (or VboxHFS).    
-  - ApfsDriverLoader.   
-  - EmuVariableUEFI.   
+> Note: Comparing to clover, the following drivers are already provided by OpenCore (do not need to download them): ApfsDriverLoader, AptioMemoryFix, EMUVariableUEFI
 
-Here are the kexts I installed (only in /EFI/CLOVER/kexts/Other) :     
+
+Kext Needed:     
 - AppleALC.kext (version 1.5.0)    
 - AtherosE2200Ethernet.kext (version 2.3.2)    
 - FakePCIID.kext    
 - FakePCIID_XHCIMux.kext     
-- VirtualSMC.kext (1.1.4)    
+- VirtualSMC.kext (version 1.1.4)    
 - GenericUSBXHCI.kext      
-- USBInjectAll.kext (version 9/11/18)    
+- USBInjectAll.kext (version 0.7.5)    
 - Lilu.kext (version 1.4.5)
 - WhateverGreen.kext (version 1.4.0)     
 
-Here's my hardware config :   
+> Link to download latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23    
+
+ACPI Needed:
+- SSDT-PLUG
+- SSDT-EC
+
+> This part is not so easy (moreover if you can't use the automatic method). Check the guide provided above to see which SSDT you need for your CPU architecture and how to get/decompile your DSDT and compile your needed SSDT's with the help of your DSTD.
+
+
+Hardware config :   
 - CPU : Intel Core I5 4690 (Haswell)   
-- MotherBoard : MSI H97 Gaming 3    
+- MotherBoard : MSI H97 Gaming 3 (Chipset Intel H97 ; Socket 1150)   
 - Ram : 8Go Ram (DDR3 Ballistix Tactical, 2 x 4 Go, 1600 MHz, CAS 8)    
 - GPU : Asus Radeon R9 280X DirectCU II Top, 3 Go (ig-platform-id: 04001204)         
 - Audio : Realtek ALC1150  
