@@ -1,5 +1,7 @@
 # Catalina with OpenCore 
 
+![desktop](/catalina.png)
+
 ### General informations and useful links
 
 - [x] Catalina 10.15.4
@@ -7,7 +9,7 @@
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
 - If you encounter any **problems**, read first [this page](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)    
-- A lots of **good tools** are provided by corpnewt, you can check that out [here](https://github.com/corpnewt)    
+- A lots of **good tools** are provided by corpnewt, you can check that out [here](https://github.com/corpnewt)   
 
 ### Hardware config 
 - CPU : Intel Core I5 4690 (Haswell)   
