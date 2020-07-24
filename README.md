@@ -1,8 +1,8 @@
-# Hackintosh Mojave 
+# Catalina with OpenCore 
 
 ### General informations and useful links
 
-- [x] Mojave 10.14.6
+- [x] Catalina 10.15.4
 
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
@@ -53,6 +53,14 @@ ACPI Needed:
 > This part is not so easy (moreover if you can't use the automatic method). Check the guide provided above to see which SSDT you need for your CPU architecture and how to get/decompile your DSDT and compile your needed SSDT's with the help of your DSTD.  
 
 ### What's working
+
+- [x] Boot successful.   
+- [x] Ethernet.   
+- [x] Sound.   
+- [x] Screen (full resolution 1080p)
+
+### What's not working
+Nothing for now.    
 
 ### Problem with audio
 Check here: https://hackintosher.com/guides/get-hackintosh-audio-working.              
