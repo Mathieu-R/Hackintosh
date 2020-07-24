@@ -20,8 +20,11 @@
 ### Bios configuration
 - `Settings` > `Save & Exit` > **Restore defaults**   
 - `Overclocking` > `CPU Features`> `CFG-Lock` > **Disable**    
-- `Overclocking`> `CPU Features` > `VT-d` > **Enable**    
-- `Settings` > `Advanced` > `Windows 8/8.1/10` > **Disable**    
+- `Overclocking`> `CPU Features` > `VT-d` > **Enable**     
+- `Settings` > `Advanced` > `Integrated Peripherals` > `Sata Mode` > **AHCI Mode**    
+- `Settings`> `Advanced` > `Intel Thunderbolt` > `Intel Thunderbolt Technology` > **Disable**    
+- `Settings` > `Advanced` > `Windows 8/8.1/10 Configuration` > `Windows 8/8.1/10 Feature` > **Disable**       
+- `Settings` > `Advanced` > `Windows 8/8.1/10 Configuration` > `Fast Boot` > **Disable**     
 - `Settings` > `Boot` > `Boot-Mode` > **UEFI**    
 
 ### Installation with OpenCore
