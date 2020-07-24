@@ -9,6 +9,7 @@
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
 - If you encounter any **problems**, read first [this page](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)    
+- Do not forget to check [this page](https://dortania.github.io/OpenCore-Post-Install) after the installation to make the post-install stuff.        
 - A lots of **good tools** are provided by corpnewt, you can check that out [here](https://github.com/corpnewt)   
 
 ### Hardware config 
@@ -58,14 +59,13 @@ ACPI Needed:
 
 - [x] Boot successful.   
 - [x] Ethernet.   
-- [x] Sound.   
 - [x] Screen (full resolution 1080p)
 
 ### What's not working
-Nothing for now.    
+- [x] Sound ?  
 
 ### Problem with audio
-Check here: https://hackintosher.com/guides/get-hackintosh-audio-working.              
+Check here: https://dortania.github.io/OpenCore-Post-Install/universal/audio.html             
 
 ### Problem with ethernet ?
 - It is a known problem if bios is not up to date so **update your bios**.    
