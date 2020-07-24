@@ -9,7 +9,7 @@
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
 - If you encounter any **problems**, read first [this page](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)    
-- Do not forget to check [this page](https://dortania.github.io/OpenCore-Post-Install) after the installation to make the post-install stuff.        
+- Do not forget to check [this page](https://dortania.github.io/OpenCore-Post-Install) after the installation to make the **post-install** stuff.        
 - A lots of **good tools** are provided by corpnewt, you can check that out [here](https://github.com/corpnewt)   
 
 ### Hardware config 
