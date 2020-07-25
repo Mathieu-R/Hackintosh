@@ -57,12 +57,21 @@ ACPI Needed:
 
 ### What's working
 
-- [x] Boot successful.   
-- [x] Ethernet.   
-- [x] Screen (full resolution 1080p)
+- [x] Boot successful [without usb](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html).   
+- [x] Lan Ethernet.   
+- [x] AMD Radeon R9 280x Graphics (screen full resolution)
+- [x] [Sound] https://dortania.github.io/OpenCore-Post-Install/universal/audio.html (_layout-id 3 works_)
+- [x] DRM support seems ok.   
 
 ### What's not working
-- [x] Sound ?  
+- [x] Mouse and keyboard [freeze on wake-up](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) 
+
+### Still have to check
+- [x] [USB mapping](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit)
+- [x] [CPU Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#enabling-x86platformplugin)
+- [x] [Cleaner boot](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
+- [x] [Boot GUI](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-boot-chime-with-audiodxe)
+- [x] [Multiboot](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#preparation)
 
 ### Problem with audio
 Check here: https://dortania.github.io/OpenCore-Post-Install/universal/audio.html             
