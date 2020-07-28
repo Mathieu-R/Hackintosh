@@ -65,6 +65,7 @@ ACPI Needed:
 
 ### What's not working
 - [x] Mouse and keyboard [freeze on wake-up](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) 
+- [x] Sometimes keyboard doesn't work on login screen and I get "USB port need power" when I connect a device probably due to bad USB mapping and maybe lack of an ACPI patch. 
 
 ### Still have to check
 - [x] [USB mapping](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit)
