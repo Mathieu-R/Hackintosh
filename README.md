@@ -1,4 +1,4 @@
-# Catalina with OpenCore 
+# Catalina with OpenCore 0.5.9
 
 ![desktop](/catalina.png)
 
