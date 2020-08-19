@@ -55,26 +55,27 @@ ACPI Needed:
 
 > This part is not so easy (moreover if you can't use the automatic method). Check the guide provided above to see which SSDT you need for your CPU architecture and how to get/decompile your DSDT and compile your needed SSDT's with the help of your DSTD.  
 
-### What's working
+### What's working out of the box
 
 - [x] Boot successful [without usb](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html).   
 - [x] Lan Ethernet.   
 - [x] AMD Radeon R9 280x Graphics (screen full resolution)
-- [x] [Sound] https://dortania.github.io/OpenCore-Post-Install/universal/audio.html (_layout-id 3 works_)
+- [x] Sound [ok](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html) (_layout-id 3 works_)
 - [x] DRM support seems ok.   
 
-### What's not working
-- [x] Mouse and keyboard [freeze on wake-up](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) 
-- [x] Sometimes keyboard doesn't work on login screen and I get "USB port need power" when I connect a device probably due to bad USB mapping and maybe lack of an ACPI patch. 
+### What need to be fixed post-install
+- [x] Mouse and keyboard [freeze on wake-up](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) [fixed by mapping USB]
+- [x] Sometimes keyboard doesn't work on login screen and I get "USB port need power" when I connect a device probably due to bad USB mapping and maybe lack of an ACPI patch. [fixed by mapping USB]
+- [x] Bios is reset after reboot [check [here](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#bios-reset-or-sent-into-safemode-after-reboot-shutdown)] 
 
-### Still have to check
+### Interessting links
 - [x] [USB mapping](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit)
 - [x] [CPU Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#enabling-x86platformplugin)
 - [x] [Cleaner boot](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering)
 - [x] [Boot GUI](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-boot-chime-with-audiodxe)
 - [x] [Multiboot](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#preparation)
 
-### Problem with audio
+### Problem with audio ?
 Check here: https://dortania.github.io/OpenCore-Post-Install/universal/audio.html             
 
 ### Problem with ethernet ?
