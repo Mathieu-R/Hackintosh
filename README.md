@@ -1,10 +1,10 @@
-# Catalina with OpenCore 0.5.9
+# Catalina with OpenCore 0.6.0
 
 ![desktop](/catalina.png)
 
 ### General informations and useful links
 
-- [x] Catalina 10.15.4
+- [x] Catalina 10.15.6
 
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
