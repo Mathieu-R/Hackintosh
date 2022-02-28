@@ -1,10 +1,10 @@
-# Catalina with OpenCore 0.6.0
+# Monterey with OpenCore 0.7.8
 
 ![desktop](/catalina.png)
 
 ### General informations and useful links
 
-- [x] Catalina 10.15.6
+- [x] Monterey 12.2
 
 - To **install** with OpenCore [this guide](https://dortania.github.io/OpenCore-Install-Guide/) is a must 
 - More informations on **bios settings** can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)    
@@ -40,12 +40,12 @@ https://github.com/dortania/OpenCore-Install-Guide/blob/master/clover-conversion
 > Note: Comparing to clover, the following drivers are already provided by OpenCore (do not need to download them): ApfsDriverLoader, AptioMemoryFix, EMUVariableUEFI
 
 Kext Needed:     
-- AppleALC.kext (version 1.5.0)    
+- AppleALC.kext (version 1.6.9)    
 - AtherosE2200Ethernet.kext (version 2.3.2)    
-- VirtualSMC.kext (version 1.1.4)    
+- VirtualSMC.kext (version 1.2.8)    
 - USBInjectAll.kext (version 0.7.5)    
-- Lilu.kext (version 1.4.5)
-- WhateverGreen.kext (version 1.4.0)     
+- Lilu.kext (version 1.6.0)
+- WhateverGreen.kext (version 1.5.7)     
 
 > Link to download latest kexts: https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455036&cid=FE4038DA929BFB23    
 
