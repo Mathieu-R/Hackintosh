@@ -1,6 +1,6 @@
 # Monterey with OpenCore 0.7.8
 
-![desktop](/catalina.png)
+![desktop](/monterey.png)
 
 ### General informations and useful links
 
