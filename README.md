@@ -104,3 +104,6 @@ sudo diskutil mount <disk>
 ```
 sudo kextcache -i /
 ```
+
+### If you install Monterey as dual boot with Windows and your Windows EFI entries are deleted (cannot boot on Windows)    
+https://www.ubackup.com/windows-10/restore-efi-partition-windows-10-8523.html
