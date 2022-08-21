@@ -1,4 +1,4 @@
-# Monterey with OpenCore 0.7.8
+# Monterey with OpenCore 0.8.3
 
 ![desktop](/monterey.png)
 
