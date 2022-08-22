@@ -124,7 +124,6 @@ sudo kextcache -i /
 
 https://www.ubackup.com/windows-10/restore-efi-partition-windows-10-8523.html
 
-### Caveats
+### Caveats    
 
-- Both `HfsPlus` and `OpenHfsPlus` are provided in the `EFI/OC/Drivers/` folder. It is recommended to use `HfsPlus` but you can try `OpenHfsPlus` if you run into trouble for booting.
-- If you
+- If you have the error `"still waiting for root device"` on boot (in verbose mode), you can try fixing it using the `CtlnaAHCIPort` kext provided. Otherwise, delete it.
