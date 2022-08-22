@@ -123,3 +123,8 @@ sudo kextcache -i /
 ### If you install Monterey as dual boot with Windows and your Windows EFI entries are deleted (cannot boot on Windows)
 
 https://www.ubackup.com/windows-10/restore-efi-partition-windows-10-8523.html
+
+### Caveats
+
+- Both `HfsPlus` and `OpenHfsPlus` are provided in the `EFI/OC/Drivers/` folder. It is recommended to use `HfsPlus` but you can try `OpenHfsPlus` if you run into trouble for booting.
+- If you
